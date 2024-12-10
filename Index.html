@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>
+            tnpsc
+        </title>
+    </head>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        .a{
+            background-color:white;
+            display: flex;
+            border:20px;
+            margin:10px;
+            margin-top: 35px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        ol li{
+            list-style-type: none;
+        
+        }
+        .b{
+            margin-right: 20px;
+            border:20px;
+            background-color: rgb(42, 97, 175); 
+            color: white;
+            border-bottom: 25px;
+             padding:15px;
+            box-shadow:-5px 10px 15px 5px gray;
+            margin-left: 20px;
+            
+          }
+          
+        .c,.d1,.g,.o,.y1{
+            display: flex;
+        }
+        .o{
+            padding-bottom: 10px;
+            height: 60px;
+        }
+        .a2{
+            padding-left: 200px;
+        }
+        .a3{
+            padding-left: 300px;
+        }
+        .x{
+           background-color: rgb(228, 222, 222); 
+           border:1px solid rgb(228, 222, 222); 
+        }
+       
+        .e{
+            border:1px solid white;
+            margin-left: 20px;
+            margin-right:20px ;
+            background-color: white;
+            margin-top: 10px;
+            color: rgb(42, 97, 175);
+            padding-left: 10px; 
+        }
+        .e9 li:hover{
+            background-color: rgb(42, 97, 175); 
+            color: white;
+        }
+        .e11{
+            margin-right: 40px;
+            margin-left: 20px;
+        }
+        .e11 li:hover{
+            background-color: rgb(42, 97, 175); 
+            color: white;
+        }
+        h1{
+            background-color: white;
+            color: black;
+            font-size: 17px;
+            margin-left: 30px;
+            font-weight: 15px;
+            padding: 10px;
+         }
+        
+        h2{
+            background-color: white;
+            color: rgb(42, 97, 175); 
+            font-size: 20px;
+            font-weight: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 20px;
+            box-shadow:1px 2px 5px 5px rgb(211, 211, 211);
+            padding: 10px;
+            padding-left: 50px;
+        }
+        h2:hover{
+           background-color: rgb(26, 95, 168); 
+           color: white;
+        }
+        .e10{
+            color: black;
+            font-size: 15px;
+        }
+        .f{
+            margin-top: 20px;
+        }
+        .f1{
+            margin-right: 10px;
+            margin-left: 20px;
+        }
+        .f3{
+            background-color: white;
+            color: red;
+            margin-top: 20px;
+            padding: 15px;
+            padding-right: 150px;
+            padding-left: 30px;
+         }
+         .f3:hover{
+            background-color: rgb(19, 71, 145);
+            color: white;
+         }
+         .f4{
+            background-color: white;
+            color: blue;
+            padding: 15px;
+            padding-right: 150px;
+            font-size: 20px;
+            padding-left: 30px;
+         }
+         .f4:hover{
+            background-color: rgb(19, 71, 145);
+            color: white;
+         }
+        .c li{
+            padding: 10px;
+        }
+        
+       .e9 li{
+        padding: 10px;
+       }
+       .e11 li{
+        padding: 10px;
+       }
+       .f7{
+        background-color: white;
+        margin-top: 10px;
+        
+       }
+       .f5{
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 15px;
+       }
+       .f8{
+        background-color: rgb(18, 63, 111);
+        color: white;
+        padding: 5px;
+       }
+       .f9{
+        background-color: rgb(195, 189, 189);
+        padding: 5px;
+       }
+       .f6{
+        padding-left: 10px;
+        padding-right: 10px;
+       }
+       h6{
+        font-size: 13px;
+        color: rgb(40, 70, 140);
+       }
+       .y{
+        background-color: rgb(42, 97, 175);
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+       }
+       .y1 li:hover{
+        background-color: rgb(197, 192, 192);
+       }
+       .y1 li:first-child{
+        background-color: rgb(42, 97, 175);
+       }
+       .y2{
+          color: white;
+          padding-left: 40px;
+          padding-right: 30px;
+          padding-top: 15px;
+          
+       }
+       .y3,.y4,.y5,.y6,.y7{
+           padding-left: 58px;
+           padding-right: 58px;
+           margin-top: 10px;
+           margin-bottom: 10px;
+           margin-left: 10px;
+           margin-right: 10px;
+           background-color: white;
+           color:rgb(14, 60, 125) ;
+           font-weight: 30px;
+
+       }
+       .d{
+        background-color: rgb(22, 99, 137); 
+        margin-top: 10px;
+        margin-bottom: 10px;
+     }
+     .d2{
+         margin-top: 10px;
+         margin-left: 20px;
+         margin-bottom: 10px;
+         margin-right: 20px;
+     }
+     .d3{
+         padding-left: 10px;
+         color: white;
+         line-height: 25px;
+         margin-top: 10px;
+         margin-right: 20px;
+     }
+     .d4{
+         font-size: 25px;
+         color: white;
+         margin-top: 10px;
+         margin-right: 20px;
+
+     }
+     .d5{
+         margin-top: 10px;
+     }
+      nav ol li{
+        float:left;
+        position:relative;
+      } 
+      nav ol li a{
+        text-decoration: none;
+        display:block;
+        color: white;
+      } 
+      nav ol li ol{
+        display: none;
+        position:absolute;
+      }
+      nav ol li:hover ol{
+        display:block;
+      }
+      .r{
+        padding: 8px;
+      }
+      .r:hover{
+            background-color: whitesmoke;
+            color: rgb(22, 87, 134);
+      }
+      
+      
+      .p{
+        background-color: white;
+      }
+      .q,.u1,.v1{
+        background-color: white;
+        margin-left:150px;
+        margin-top: -45px;
+        color: rgb(22, 78, 156);
+      }
+      nav ol .t{
+        float:left;
+        position:relative;
+        z-index:100;
+        
+      }
+      nav ol .t a{
+        text-decoration: none;
+        display:block;
+      }
+      nav ol .t .q{
+        display:none;
+        position:absolute;
+      }
+      nav ol .t:hover .q{
+        display:block;
+      }
+      .o1{
+        color: blue;
+
+      }
+      
+      .o1:hover{
+        background-color: rgb(48, 116, 175);
+        color: white;
+        padding: 10px;
+        
+      }
+      nav ol .u{
+        float:left;
+        position:relative;
+      }
+      nav ol .u a{
+        text-decoration: none;
+        display:block;
+      }
+      nav ol .u .u1{
+        display:none;
+        position:absolute;
+      }
+      nav ol .u:hover .u1{
+        display:block;
+      }
+      .u1{
+        background-color: white;
+        
+        color: blue;
+      }
+      nav ol .v{
+        float:left;
+        position:relative;
+      }
+      nav ol .v a{
+        text-decoration: none;
+        display:block;
+      }
+      nav ol .v .v1{
+        display:none;
+        position:absolute;
+      }
+      nav ol .v:hover .v1{
+        display:block;
+      }
+      .v1{
+        background-color: white;
+        
+        color: blue;
+      }
+      .p{
+        width:170px;
+      }
+      .o1{
+        width:150px;
+      }
+      .k{
+        display:flex;
+        padding-left:1150px;
+      }
+      .k li{
+        padding: 10px;
+        color: rgb(22, 95, 146);
+      }
+      
+    </style>
+    <body>
+    <div class="x">
+        <ol class="a">
+            <li> <img src="https://www.tnpsc.gov.in/English/images/TNPSC-logo.jpg" width="150px" class="a1"> </li>
+        
+            <li> <img src="https://www.tnpsc.gov.in/English/images/TNPSC-logo.png" width="750px" class="a2"> </li>
+
+            <li> <img src="https://www.tnpsc.gov.in/English/images/90year.jpg" width="500px" class="a3"> </li>
+        </ol>
+    <div class="b">
+        <nav class="z">
+          <ol class="c">
+            <li><a href="" class="r">HOME</a> </li>
+            <li><a href="" class="r" >ABOUT US</a>
+                <ol class="p">
+                    <li><a href="" class="o1"> vision and mission</a>         </li>
+                    <li><a href="" class="o1"> role and functions</a>         </li>
+                    <li><a href="" class="o1"> constitutional provisions</a>  </li>
+                    <li><a href="" class="o1"> the commission</a>             </li>
+                    <li><a href="" class="o1"> historical perspective</a>     </li>
+                </ol>
+            </li>
+            <li> <a href="" class="r"> RECRUITMENT </a> 
+              <ol class="p">
+                <li><a href="" class="o1"> syllabus</a>                      </li>
+                <li><a href="" class="o1"> scheme of examination</a>         </li>
+                <li class="t"><a href="" class="o1"> online application services</a>
+                  <ol class="q">
+                    <li><a href="" class="o1"> apply online</a>               </li>
+                    <li><a href="" class="o1"> hall ticket download</a>       </li>
+                    <li><a href="" class="o1"> one time registration</a>      </li>
+                  </ol> 
+                  </li>
+                  <li><a href="" class="o1"> notifications</a>                </li>
+                  <li><a href="" class="o1"> instructions to applicants</a>   </li>
+                  <li><a href="" class="o1"> annual planner</a>               </li>
+
+              </ol>
+              </li>
+            <li> <a href="" class="r"> EMPLOYEE CORNER </a>
+              <ol class="p">
+                <li class="t"><a href="" class="o1"> departmental examination</a>
+                  <ol class="q">
+                    <li><a href="" class="o1"> apply online</a>               </li>
+                    <li><a href="" class="o1"> fees details </a>              </li>
+                    <li><a href="" class="o1">  notification</a>              </li>
+                  </ol>       
+                 </li>
+                 <li class="u"><a href="" class="o1"> examination for all india service officers</a>
+                  <ol class="u1">
+                    <li><a href="" class="o1"> halfyearly test</a>             </li>
+                    <li><a href="" class="o1"> proficiency test </a>           </li>
+                  </ol>
+                </li>
+              </ol>     
+              </li>
+            <li> <a href="" class="r">GOVERNMENT USERS </a>
+              <ol class="p">
+                    <li class="t"><a href="" class="o1"> departmental promotion</a>
+                      <ol class="q">
+                        <li><a href="" class="o1"> role of TNPSC</a>            </li>
+                        <li><a href="" class="o1"> format/check list</a>        </li>
+                        <li><a href="" class="o1"> composition of DPC </a>      </li>
+                      </ol>       
+                    </li>
+                    <li class="u"><a href="" class="o1"> concurrence</a>
+                      <ol class="u1">
+                        <li><a href="" class="o1"> role of TNPSC</a>             </li>
+                        <li><a href="" class="o1"> format/check list</a>         </li>
+                        <li><a href="" class="o1">  government orders</a>        </li>
+                      </ol>              
+                    </li>
+                    <li class="v"><a href="" class="o1"> disciplinary cases</a>
+                      <ol class="v1">
+                        <li><a href="" class="o1"> role of TNPSC</a>             </li>
+                        <li><a href="" class="o1"> format/check list</a>         </li>
+                        <li><a href="" class="o1"> government orders</a>         </li>
+                      </ol>             
+                     </li> 
+              </ol>
+            </li>
+            <li> <a href="" class="r"> RTI & PUBLIC GRIEVANCE</a>
+              <ol class="p">
+                <li><a href="" class="o1"> announcements/press note</a>           </li>
+                <li class="t"><a href="" class="o1"> RTI</a>
+                  <ol class="q">
+                    <li><a href="" class="o1"> RTI athorities</a>                 </li>
+                    <li><a href="" class="o1"> monthly receipts and disposals</a> </li>
+                  </ol>          
+                  </li>
+                </ol>
+            </li>
+            <li> <a href=""class=r>FAQ </a> </li>
+            <li><a href="" class="r">FORMS & DOWNLOADS </a></li>
+            <li class="t"> <a href="" class="r"> LINKS </a>
+              <ol class="p">
+                <li><a href="" class="o1"> others public service commission</a>     </li>
+                <li><a href="" class="o1"> government websites</a>                  </li>
+              </ol>
+            </li>
+            <li><a href="" class="r"> TENDERS </a></li>
+          </ol>
+         </nav>  
+    </div>  
+        <div class="g">
+          <div>
+            <div>
+             <h2> Exam Dashboard</h2> 
+            </div>  
+            <div class="e">  
+             <ol class="e11">
+                <h1>IMPORTANT LINKS</h1>
+                <li class="e1">Notifications</li>
+                <li class="e2">Apply online</li>
+                <li class="e3">Hall Ticket Download</li>
+                <li class="e4">Selection Schedule</li>
+                <li class="e5">Latest resuls</li>
+                <li class="e6">CV/OT (Interviews)</li>
+                <li class="e7 ">OMR Answer Sheets-Sample/Instructions</li>
+                <li class="e8">Counselling selection</li>
+             </ol>
+            </div>
+
+          </div>
+         <div>
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBJMDRYl_PBDX3D-tOJEH5IGQX5JmWHW51Q&s" width="600px" class="f">
+         </div>
+        <div class="f1">
+            <div> 
+             <h3 class="f3">Group 1V Services-Examination Resuls <h3>
+             <h4 class="f4">Announcements / press note</h4>
+            </div>  
+        <div class="f7">
+             <h5 class="f5"> WHATS NEW <h5> 
+              <marquee direction="up">
+           <div class="o">      
+            <div>     
+             <ol class="f6">
+             <li class="f8">OCT </li>
+             <Li class="f9">1 </Li>
+             </ol>
+            </div>
+           <div>
+             <h6 >COMBINED ENGINEERING SERVICES (EXAMINATION) (Finel<br> Result)<h6>
+           </div>
+         </div>
+       <div class="o">      
+        <div>     
+         <ol class="f6">
+         <li class="f8">OCT </li>
+         <Li class="f9">3 </Li>
+         </ol>
+        </div>
+       <div>
+         <h6 >DRUGS INSPECTOR & JUNIOR ANALYST IN THE DRUGS TESTING<br> LABORATORY (THE TAMIL NADU MEDICAL SERVICE (2017-2019))<br> (Oral Test Mark)<h6>
+       </div>
+     </div>
+     <div class="o">      
+      <div>     
+       <ol class="f6">
+       <li class="f8">OCT </li>
+       <Li class="f9">3 </Li>
+       </ol>
+      </div>
+     <div>
+       <h6 >DRUGS INSPECTOR & JUNIOR ANALYST IN THE DRUGS TESTING<br> LABORATORY (THE TAMIL NADU MEDICAL SERVICE (2017-2019))<br> (Final Result)<h6>
+     </div>
+   </div>
+   <div class="o">      
+    <div>     
+     <ol class="f6">
+     <li class="f8">OCT </li>
+     <Li class="f9">3 </Li>
+     </ol>
+    </div>
+   <div>
+     <h6 >ஒருங்கிணைந்த தொழில் நுட்பப் பணிகள் <br>தேர்வில் (நேர்முகத் தேர்வு பதவிகள்) அடங்கிய <br>பதவிகளுக்கான விடுபட்ட / முழுமையான <br>சான்றிதழ்களை பதிவேற்றம் செய்ய வாய்ப்பு <br>வழங்குதல் தொடர்பான செய்தி வெளியீடு (Press <br>Release)<h6>
+   </div>
+ </div>
+  </marquee>
+    </div>
+     </div>
+     </div>
+     <div class="y">
+        <ol class="y1">
+            <li class="y2">CANDIDATE CORNER</li>
+            <li class="y3">One Time Registration<br>New User</li>
+            <li class="y4">Registered User</li>
+            <li class="y5">Forgot User ID</li>
+            <li class="y6">Forgot Password</li>
+            <li class="y7">How To Apply</li>
+        </ol>
+    </div>
+    <div class="d">
+        <ol class="d1">
+            <li> <img src="https://www.tnpsc.gov.in/English/images/india.gov.in.jpg" width="250px" class="d2"></li>  
+            <li class="d3" >  © Tamil Nadu Public Service Commission, TNPSC Road, Broadway, Chennai-600003.<br>
+                  Email: grievance[dot]tnpsc[at]tn[dot]gov[dot]in<br>
+                  Version: 23.03/1   Last Updated: 04-12-2024   Visitor No.: 48660585</li>
+
+            <li class="d4">Toll Free Contact Number<br> 1800 419 0958 </li>
+            <li> <img src="https://www.tnpsc.gov.in/English/images/tn.gov.in2.jpg" width="350px" class="d5" > </li>
+        </ol>
+    </div>
+    
+      <ol Class="k">
+        <li>Feedback</li>
+        <li>Web Policy</li>
+        <li>Diaclaimer</li>
+        <li>Contact Us</li>
+      </ol>
+        
+    </div>
+    </body>
+</html>
